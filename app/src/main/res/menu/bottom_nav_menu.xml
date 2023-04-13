@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home"
+        android:title="@string/menu1"
+        />
+    <item
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/favorite"
+        android:title="@string/menu2"
+        />
+
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/setting"
+        android:title="@string/menu3"
+        />
+    <!--graph에 각각 프래그먼트의 id가 bottomFragment1,2,3,4이다
+    이걸 메뉴 id랑 각각 맞춰줘야 한다.-->
+</menu>
