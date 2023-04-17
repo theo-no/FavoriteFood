@@ -4,8 +4,22 @@
     <string name="menu1">Home</string>
     <string name="menu2">Favorite</string>
     <string name="menu3">Settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="store_name">가게명 : </string>
+    <string name="rating">평점 : </string>
+    <string name="menu">[메뉴]</string>
+    <string name="total_price">금액 : </string>
+    <string name="review">[후기]</string>
+    <string name="photo">사진 : </string>
+    <string name="photo_btn">찾아보기,,</string>
+    <string name="location">위치 : </string>
+
+    <string name="regist">등록</string>
+    <string name="update">수정</string>
+    <string name="delete">삭제</string>
+    <string name="cancel">취소</string>
+
+    <string name="main_toolbar_title">F.F</string>
 
 
 </resources>

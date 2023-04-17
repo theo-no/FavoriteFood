@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="@string/main_toolbar_title"
+        android:icon="@drawable/search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.widget.SearchView"/>
+    <!--actionViewClass에서 SearchView를 적용하면 클릭 시에 위에 toolbar가 searchView가 된다.-->
+</menu>

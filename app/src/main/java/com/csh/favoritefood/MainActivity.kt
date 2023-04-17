@@ -5,8 +5,10 @@ import android.graphics.pdf.PdfDocument.Page
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
@@ -36,7 +38,19 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 //나중에 DB 연결할 때는 launch로 호출해서 데이터 받아와서 처리해야함
             }
+
+            toolbar.setTitle("F.F")
+            setSupportActionBar(toolbar)
+
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_toolbar_menu, menu)
+        val searchItem = menu!!.findItem(R.id.search)
+        val searchView = searchItem.actionView as SearchView
+
+        return true
     }
 
     private inner class PagerAdapter(activity: MainActivity): FragmentStateAdapter(activity) {
